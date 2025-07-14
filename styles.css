@@ -807,6 +807,7 @@ footer a:hover{
     word-break: break-word;
     line-height: 1.1rem;
     font-family: sans-serif;
+    font-weight: bold;
   }
 }
 
