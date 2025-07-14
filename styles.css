@@ -114,6 +114,7 @@ ul{
     border-radius: 3rem;
     background-color: var(--lighter-green);
     padding: 0.5px;
+    animation: slideInRight 1s ease-in-out;
 
 }
 
@@ -220,7 +221,7 @@ p{
     
 }
 .secondary-btn:hover{
-    border: 0.5px #878c96 solid;
+    border: 0.5px #505255 solid;
     transition: 1.5s;
 }
 
@@ -367,6 +368,7 @@ span{
     color: var(--primary-white);
     animation:fadeInUp 3s ease forwards;
     
+    
 }
 /*Styling-for-the-html-card*/
 .html-card{
@@ -509,6 +511,17 @@ span{
   100% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
 
@@ -748,14 +761,15 @@ footer a:hover{
 
   .contact-form {
    width: 100%;
-  padding: 0.75rem;
-  font-size: 1rem;
+   padding: 0.75rem;
+   font-size: 1rem;
   }
 
   .contact-text {
     font-size: 1.5rem;
     text-align: center;
     margin: 0 auto;
+    
   }
 
   .contact-form button {
@@ -764,6 +778,7 @@ footer a:hover{
 
   .contact-form input {
     width: 100%;
+    
 
   }
 
@@ -787,8 +802,8 @@ footer a:hover{
 
   .faq-answer {
     padding: 0.5rem 1rem;
-  box-sizing: border-box;
-  font-size: 0.9rem;
+    box-sizing: border-box;
+    font-size: 0.9rem;
     word-break: break-word;
     line-height: 1.1rem;
   }
@@ -823,7 +838,7 @@ footer a:hover{
   width: 100%;
 }
 
-.contact-form > * {
+.contact-form > *  {
   margin-bottom: 1rem;
 }
 }
