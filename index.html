@@ -7,23 +7,26 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar">
+    <nav class="navbar" id="navbar">
         <div class="picture"><img src="avatar.jpeg" alt=""></div>
-        <!--User-name-section-->
-       <div class="name">
+    <!--User-name-section-->
+        <div class="name">
         <span class="first-name">Kenny</span>
         <span class="last-name">Olanrewaju</span>
-
-       </div>
-       <ul class="nav-links">
-        <li><a href="">Home</a></li>
-        <li><a href="#about-me-section">About</a></li>
-        <li><a href="">Projects</a></li>
-        <li><a href="#contact-section">Contact</a></li>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="">Home</a></li>
+            <li><a href="#about-me-section">About</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="#contact-section">Contact</a></li>
         
-    </ul>
+        </ul>
+    <button class="hamburger" id="hamburger">&#9776;</button>
 
     </nav>
+    <script src="script.js" defer></script>
+
+
 
     <!--Hero-section-->
     <section class="Hero-section">
@@ -42,10 +45,10 @@
 
         <div class="Hero-buttons">
             <!--Projects-button-->
-             <a href="#projects" class="primary-btn">
-                 <h3>View My Projects</h3>
-                 <div class="Arrow-icon"><img src="arrow-right.png" alt=""></div>
-            </a>
+        <a href="#projects" class="primary-btn">
+            <h3>View My Projects</h3>
+        <div class="Arrow-icon"><img src="arrow-right.png" alt=""></div>
+        </a>
 
             <!--Github-button-->
             <a href="https://github.com/Kenny-Olanrewaju?tab=repositories"  class="secondary-btn">
@@ -74,7 +77,6 @@
                         <div class="achievements-number">1+</div>
                         <div class="achievements-label">Years Learning</div>    
                     </div>
-  
         </div>
         
 
@@ -93,12 +95,12 @@
             <h3 class="skill-header">My Skills</h3>
                 <div class="skills-card-container">
                     <div class="skill">
-                       <div class="html-card">
+                        <div class="html-card">
                         <div id="html-card-header" >HTML</div>
                         <div class="html-logo"><img src="html-icon.png" alt=""></div>
-                       </div>
-                        
                     </div>
+                        
+                </div>
                     <div class="skill">
                         <div class="css-card">
                             <div  id="css-card-header">CSS</div>
@@ -173,17 +175,17 @@
             </div>
         </div>
     </section>
-  
+
     <!--footer-->
     <footer>
     <p>&copy; 2025 Kenny's Portfolio . All Rights Reserved.</p>
     <p>Follow me on <a href="#"> Social Media </a></p>
-    <div class="footer-links">
-        <a href="https://www.instagram.com/kenzocool20/"><img src="instagram logo.png" alt=""></a>
-        <a href=""><img src="tiktok logo.png" alt=""></a>
-        <a href=""><img src="facebook logo.png" alt=""></a>
-        <a href=""><img src="x logo.png" alt=""></a>
+<div class="footer-links">
+    <a href="https://www.instagram.com/kenzocool20/"><img src="instagram logo.png" alt=""></a>
+    <a href=""><img src="tiktok logo.png" alt=""></a>
+    <a href=""><img src="facebook logo.png" alt=""></a>
+    <a href=""><img src="x logo.png" alt=""></a>
     </div>
-   </footer>
+</footer>
 </body>
 </html>
